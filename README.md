@@ -1,1 +1,1 @@
-[Live lin](https://gio213.github.io/Amazeing/);
+[Live link](https://gio213.github.io/Amazeing/)
