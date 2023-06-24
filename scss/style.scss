@@ -12,8 +12,11 @@ body {
         width: 100%;
         height: 100%;
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
         margin-top: 50px;
+        gap: 20px;
+
 
 
 
@@ -31,34 +34,56 @@ body {
             .wall {
                 width: 26px;
                 height: 25px;
-                background-color: #363636;
+                // background-color: #363636;
                 border: 0.5px solid white;
+                background-color: #363636;
+                // background-image: url("/imgs/wall.png");
+                // background-size: cover;
+                // background-repeat: no-repeat;
+                // background-position: center;
 
             }
 
             .path {
                 width: 26px;
                 height: 25px;
-                background-color: #ACDFA7;
+                // background-color: #ACDFA7;
                 border: 0.5px solid white;
+                background-color: #ACDFA7;
+                ;
+                // background-image: url("/imgs/road.png");
+                // background-size: cover;
+                // background-repeat: no-repeat;
+                // background-position: center;
             }
 
             .s {
-                background-color: red;
+                width: 26px;
+                height: 25px;
+                border: 0.5px solid white;
+                background-color: #f80d0d;
+                // background-image: url("/imgs/fatMan.png");
+                // background-size: cover;
+                // background-repeat: no-repeat;
+                // background-position: center;
 
             }
 
             .t {
-                background-color: yellow;
-            }
-
-            .moveCellTop {
-                background-color: #ACDFA7;
-                border: 0.5px solid white;
+                background-color: #d1e408;
                 width: 26px;
                 height: 25px;
-                animation: moveCellTop 1s linear infinite;
+                border: 0.5px solid white;
+
+                // background-image: url("/imgs/beer.png");
+                // background-size: cover;
+                // background-repeat: no-repeat;
+                // background-position: center;
+
+
             }
+
+
 
 
         }

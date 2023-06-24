@@ -11,8 +11,10 @@ body main {
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   margin-top: 50px;
+  gap: 20px;
 }
 body main .maze {
   width: 340.5px;
@@ -26,25 +28,24 @@ body main .maze {
 body main .maze .wall {
   width: 26px;
   height: 25px;
-  background-color: #363636;
   border: 0.5px solid white;
+  background-color: #363636;
 }
 body main .maze .path {
   width: 26px;
   height: 25px;
-  background-color: #ACDFA7;
   border: 0.5px solid white;
+  background-color: #ACDFA7;
 }
 body main .maze .s {
-  background-color: red;
-}
-body main .maze .t {
-  background-color: yellow;
-}
-body main .maze .moveCellTop {
-  background-color: #ACDFA7;
-  border: 0.5px solid white;
   width: 26px;
   height: 25px;
-  animation: moveCellTop 1s linear infinite;
+  border: 0.5px solid white;
+  background-color: #f80d0d;
+}
+body main .maze .t {
+  background-color: #d1e408;
+  width: 26px;
+  height: 25px;
+  border: 0.5px solid white;
 }/*# sourceMappingURL=style.css.map */
